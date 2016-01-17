@@ -1,0 +1,22 @@
+{
+  "name": "fse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "redis": "^2.4.2",
+    "tweets": "0.0.6"
+  },
+  "devDependencies": {
+    "express": "*",
+    "ejs": "*",
+    "socket.io": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
